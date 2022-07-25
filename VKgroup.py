@@ -24,7 +24,7 @@ title_group = vk_download('groups.getById', 'group_id=' + group_id)
 wall = vk_download('wall.get', 'domain=' + group_id)
 count_notes = wall['count']
 name_group = title_group[0]['name']
-n = int(input('На странице '+str(count_notes)+' записей. Сколько скачаем записей? '))
+n = int(input('На странице' + ' "' + name_group + '" ' + str(count_notes) + ' записей. Сколько скачаем записей? '))
 conn = sqlite3.connect(name_group + '.db')
 cur = conn.cursor()
 cur.execute("""CREATE TABLE IF NOT EXISTS wall(
