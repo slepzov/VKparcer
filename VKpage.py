@@ -4,9 +4,8 @@ import time
 import sqlite3
 
 # Token и id
-token = 'vk1.a.Rx5A2rx_Dseg7HmFaGjBD-BeOeYhGp5PlUgW6AbmNIZ0lkAPK1BaOUbKh4aUfWz4FoX7Er5JtkqbxdmI2a8x' \
-        '-l5iTBkPiVm4KvrCVeAWcTeIbm97UMl3KbUFavZ3jdQ3xx_EMsr9wQo5VLlb4nO1vtCCxzsH1YRSRGrlIyekwcXBQoBloHX-aNaE1Sq8vFe2 '
-page_id = 'dm'
+token = 'vk1.a.d5li-4DJYYpC0TFjkKetdzKNhicQ3cByC9YFKV6lIrxBPumG56GLd7-Da6lNQ-HAWscfwuRQ3GhzURB-7zmYAywjKWzWYapS2GZVDGK_J8dsU7v3tw57y7QUCBprgZImpY54YzqukUpu-0nK6WjKUZ6CnKrxUKDc5NS75JWLARDx8tX8yROK362PQk04CSwJ'
+page_id = input("Введите id страницы: ")
 
 
 # Основной код
